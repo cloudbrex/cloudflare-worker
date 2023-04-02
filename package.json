@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "new-worker",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'wrangler publish'"
+  },
+  "author": "datworks <datworks101@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/wrangler": ""
+  }
+}
+

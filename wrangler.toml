@@ -1,0 +1,14 @@
+name = "301_redirect_wrangler"
+type = "javascript"
+
+zone_id = "enter cloudflare zone id"
+workers_dev = true
+account_id = "your cloudflare account id"
+compatibility_date = "2023-04-01"
+
+[site]
+bucket = "./dist"
+entry-point = "index.js"
+
+[build]
+command = "npm install && npm run build"
